@@ -1,0 +1,211 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* incioPaginaIndex */
+/* Header */
+/* --- menu navegacion --- */
+.menuSuperior {
+    list-style-type: none;
+    text-align: center;
+    margin: 1rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 2rem;
+    left: 25%
+    ;
+}
+.menuSuperior li {
+    display: inline-block;
+}  
+.menuSuperior a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(199, 185, 201);
+    background-color: transparent;
+    padding: 1rem;
+    border: solid rgb(199, 185, 201);
+    font-weight: 600;
+}  
+/* --- logo --- */
+.logo {
+    background-image: url(../img/logo4.png);
+    height: 19rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 6rem;
+}
+/* Body */
+body {
+/* --- fondo --- */
+    background-color:white;
+    background-image: url(../img/fondo_estrellas.png);
+    background-repeat: no-repeat;
+/* --- tipografia --- */    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* --- título bienvenidxs --- */
+h1{
+   /* margin: 1rem*/
+    font-size:xx-large;
+    text-align: center;
+}
+/* --- subtitulo atencion --- */
+h2{
+    font-size:x-large;
+    line-height:0.6rem;
+    text-align:center;
+    margin-top: 2rem;
+}
+.violeta{ 
+    color: rgb(173, 123, 230);
+}
+/* --- imagenes ---*/
+.imagen1 {
+    width: 30rem;
+    padding: 1rem;
+    margin-left: 12rem;
+    box-sizing: border-box;
+}
+.imagen2 {
+    width: 30rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+/* Footer */
+footer{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    margin-left: 32.5rem;
+    bottom: 0rem;
+    position: absolute;
+    margin-bottom: 1rem;
+}
+/* finPaginaIndex */
+/* inicioPaginaProductos */
+/* inicioTorta */
+/* --- subtituloTortas --- */
+.subtituloTortas {
+    color: black;
+    margin-left: 0rem;
+    margin-top: -18rem;
+    font-size:xx-large;
+
+}
+/* --- listaProductos --- */
+.lista {
+    list-style-type: none;
+    margin: 10rem;
+    margin-top: -3rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.listas_flex {
+    display: flex;
+    justify-content:space-between;
+}
+/* --- fotoTorta --- */
+.imgProductos {
+    width: 30rem;
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+.imagenes_flex {
+    display: flex;
+    justify-content:center;
+}
+}
+/* --- textoylinkReel --- */
+.textoLink {
+    margin-left: 28.4rem;
+}
+/* finTorta */
+/* inicioBox */
+/* --- subtituloBox --- */
+.subtituloBoxes {
+    color: black;
+    margin-left: 54rem;
+    margin-top: -38rem;
+    font-size:xx-large;
+}
+/* --- listaBox --- */
+.listaBox {
+    list-style-type: none;
+    margin: 7rem;
+    margin-top: -12rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+}
+/* --- textoPiefoto --- */
+.textoPie {
+    margin-left: 27rem;
+    margin-top: 11rem;
+}
+/* finBox */
+/* --- idNegrita usado en listas --- */
+#negrita {
+    font-weight: 600;
+}
+/* finPaginaProductos */
+/* inicioPaginaPromos */
+/* --- terminos --- */ 
+dt {
+    font-size: x-large;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin-left: 34.5rem;
+    box-sizing: border-box;
+}
+/* --- listaPromos --- */ 
+ul {
+    list-style-type: none;
+    margin-left: 42rem;
+}
+/* finPaginaPromos */
+/* inicioPaginaMassobrelulu */
+p {
+    margin: 1rem;  
+}
+iframe {
+    margin: 1.5rem;
+    margin-top: 0rem;
+}
+/* finPaginaMassobrelulu */
+/* inicioPaginaContacto */
+/* --- tituloCajas --- */
+fieldset {
+    margin: 1rem;
+    padding: 1rem;
+}
+label {
+    display:block;
+}
+/* --- cajas --- */
+input {
+    margin: 1.2rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+/* --- checkRedes --- */
+.checkRedes {
+    margin: 0.3rem;
+    margin-left: 1.5rem;
+}
+/* --- idIg --- */
+#instagram {
+    margin-left: 0rem;
+}
+/* --- textoTextarea --- */
+.dejanosunMsj {
+    margin: 0.3rem;
+    margin-top: 1rem;
+}
+/* --- botonFormulario --- */
+.botones {
+    margin:0.4rem;
+    margin-left: 0rem;
+}
+/* finPaginaContacto */
