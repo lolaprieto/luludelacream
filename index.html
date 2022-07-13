@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon_1.jpeg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS BOOTSTRAP propio -->
     <link rel="stylesheet" href="./estilos/estilos.css">
     <title> INICIO </title>
 </head>
-<body>
-<header class="logo">  
-    <!-- Inicio menu navegacion -->
-    <nav>
-        <ul class="menuSuperior"> 
-            <li><a href= "index.html"> INICIO </a></li>
-            <li><a href="./paginas/productos.html"> PRODUCTOS </a></li>
-            <li><a href="./paginas/promos.html"> PROMOS </a></li>
-            <li><a href="./paginas/massobrelulu.html"> MÁS SOBRE LULÚ </a></li>
-            <li><a href="./paginas/contacto.html"> CONTACTO </a></li>
-        </ul>
-    </nav>
-<!-- Fin menu navegacion -->
-</header>
-<!-- Titulo -->
-    <h1> BIENVENIDX A LA PÁGINA MÁS DULCE,<br>¡BIENVENIDX A LULÚ DE LA CREAM!</h1>
-<!-- Subtitulo -->
-    <h2  class="violeta"> ATENCIÓN: </h2><h2> Las siguientes imágenes pueden causar ganas irreversibles de comer algo rico... ¡Te lo advertimos! </h2>
-<!-- Imagenes -->
-    <img src="./img/cheesecake.png" alt="cheesecake" class="imagen1">     
-    <img src="./img/brownie.png" alt="brownie" class="imagen2">  
-<!-- Footer -->
-<footer> Seguinos en Instagram <a href="https://www.instagram.com/luludelacream/"> @lulúdelacream </a></footer>  
+<!-- inicio body -->
+<body class="body">
+    <header>
+        <section class="flex header_flexbox">
+            <div>
+                <img src="./img/logo4.png" alt="logo" class="logo">
+            </div>
+            <!-- Inicio menu navegacion -->
+            <div>
+                <nav>
+                    <ul class="menuSuperior">
+                        <li><a href="index.html"> INICIO </a></li>
+                        <li><a href="./paginas/productos.html"> PRODUCTOS </a></li>
+                        <li><a href="./paginas/promos.html"> PROMOS </a></li>
+                        <li><a href="./paginas/massobrelulu.html"> SOBRE LULÚ </a></li>
+                        <li><a href="./paginas/contacto.html"> CONTACTO </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Fin menu navegacion -->
+        </section>
+    </header>
+    <section class="flex titulo_flexbox">
+        <h1> BIENVENIDX A LA PÁGINA MÁS DULCE, </h1>
+        <h1>¡BIENVENIDX A LULÚ DE LA CREAM!</h1>
+        <h2 class="violeta"> Las siguientes imágenes pueden causar ganas irreversibles de comer algo rico... ¡TE LO
+            ADVERTIMOS! </h2>
+        <h2 class="subtitulo_2"> Somos tus desayunos, meriendas y postres. Hecho con amor, para compartir.</h2>
+    </section>
+    <section class="galeria_grid" id="galeria_grid">
+        <picture class="galeria_img">
+            <img src="./img/bolas1.jpeg" alt="">
+        </picture>
+        <picture class="galeria_img">
+            <img src="./img/brownie1.jpeg" alt="">
+        </picture>
+        <picture class="galeria_img">
+            <img src="./img/cheesecake1.jpeg" alt="">
+        </picture>
+        <picture class="galeria_img">
+            <img src="./img/chocotorta1.jpeg" alt="">
+        </picture>
+        <picture class="galeria_img">
+            <img src="./img/box.png" alt="">
+        </picture>
+        <picture class="galeria_img">
+            <img src="./img/brownie2.jpg" alt="">
+        </picture>
+    </section>
+    <footer> Seguinos en Instagram <a href="https://www.instagram.com/luludelacream/"> @lulúdelacream </a></footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
+<!-- fin body -->
 </html>

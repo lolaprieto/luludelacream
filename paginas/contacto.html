@@ -1,62 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon_1.jpeg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/estilos.css">
     <title> CONTACTO </title>
 </head>
-<body>
-    <header class="logo">
-        <!-- Inicio menu navegacion --> 
-        <nav>
-            <ul class="menuSuperior"> 
-                <li><a href="../index.html"> INICIO </a></li>
-                <li><a href="productos.html"> PRODUCTOS </a></li>
-                <li><a href="promos.html"> PROMOS </a></li>
-                <li><a href="massobrelulu.html"> MÁS SOBRE LULÚ </a></li>
-                <li><a href="contacto.html"> CONTACTO </a></li>
-            </ul>
-        </nav>       
-        <!-- Fin menu navegacion --> 
+
+<body class="body">
+    <header>
+        <section class="flex header_flexbox">
+            <div> <img src="../img/logo4.png" alt="logo" class="logo"> </div>
+            <!-- Inicio menu navegacion -->
+            <div>
+                <nav>
+                    <ul class="menuSuperior">
+                        <li><a href="../index.html"> INICIO </a></li>
+                        <li><a href="./productos.html"> PRODUCTOS </a></li>
+                        <li><a href="./promos.html"> PROMOS </a></li>
+                        <li><a href="./massobrelulu.html"> SOBRE LULÚ </a></li>
+                        <li><a href="./contacto.html"> CONTACTO </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- Fin menu navegacion -->
     </header>
     <!-- Inicio formulario -->
     <h1 class="violeta"> Completá el formulario y nos contactamos con vos a la brevedad!
     </h1>
     <form action="">
-<fieldset>
-    <legend id="negrita"> Dejanos tus datos </legend>
-    <label for="nombre"> Nombre </label>
-    <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
-   
-    <label for="apellido"> Apellido </label>
-    <input type="text" name="apellido" placeholder="Ingresa tu apellido" required>
-   
-    <label for="telefono"> Teléfono </label>
-    <input type="number" name="telefono" placeholder="Ingresa tu teléfono" required>
-  
-    <label for="correo"> Correo electrónico </label>
-    <input type="email" name="correo" placeholder="Ingresa tu email" required>
- 
-    <!-- Checkbox -->
-    <label for="radio"> ¿Cómo nos conociste? </label>  
-    <input type="radio" name="radio" class="checkRedes" id="instagram"> Instagram
-    <input type="radio" name="radio" class="checkRedes"> Facebook
-    <input type="radio" name="radio" class="checkRedes"> Recomendación
-    <input type="radio" name="radio" class="checkRedes"> Otro
-   
-    <!-- textarea -->
-    <label for="comentarios" class="dejanosunMsj"> Dejanos un mensaje </label>
-    <textarea name="comentario" cols="30" rows="5"></textarea>
-    
-    <input type="submit" value="Enviar formulario" class="botones">
-    <input type="reset" value="Limpiar formulario" class="botones">
-    </fieldset>
+        <fieldset>
+            <legend id="negrita"> Dejanos tus datos </legend>
+            <label for="nombre"> Nombre </label>
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+
+            <label for="apellido"> Apellido </label>
+            <input type="text" name="apellido" placeholder="Ingresa tu apellido" required>
+
+            <label for="telefono"> Teléfono </label>
+            <input type="number" name="telefono" placeholder="Ingresa tu teléfono" required>
+
+            <label for="correo"> Correo electrónico </label>
+            <input type="email" name="correo" placeholder="Ingresa tu email" required>
+
+            <!-- Checkbox -->
+            <label for="radio"> ¿Cómo nos conociste? </label>
+            <input type="radio" name="radio" class="checkRedes" id="instagram"> Instagram
+            <input type="radio" name="radio" class="checkRedes"> Facebook
+            <input type="radio" name="radio" class="checkRedes"> Recomendación
+            <input type="radio" name="radio" class="checkRedes"> Otro
+
+            <!-- textarea -->
+            <label for="comentarios" class="dejanosunMsj"> Dejanos un mensaje </label>
+            <textarea name="comentario" cols="30" rows="5"></textarea>
+
+            <input type="submit" value="Enviar formulario" class="botones">
+            <input type="reset" value="Limpiar formulario" class="botones">
+        </fieldset>
     </form>
     <!-- Fin formulario -->
     <!-- Footer -->
     <footer> Seguinos en Instagram <a href="https://www.instagram.com/luludelacream/"> @lulúdelacream </a></footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
+
 </html>

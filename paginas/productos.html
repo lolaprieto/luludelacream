@@ -1,64 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon_1.jpeg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/estilos.css">
     <title> PRODUCTOS </title>
 </head>
-<body class="fondoProductos">
-    <header class="logo">
-        <!-- Inicio menu navegacion --> 
-        <nav>
-            <ul class="menuSuperior"> 
-                <li><a href="../index.html"> INICIO </a></li>
-                <li><a href="productos.html"> PRODUCTOS </a></li>
-                <li><a href="promos.html"> PROMOS </a></li>
-                <li><a href="massobrelulu.html"> MÁS SOBRE LULÚ </a></li>
-                <li><a href="contacto.html"> CONTACTO </a></li>
-            </ul>
-        </nav>       
-        <!-- Fin menu navegacion --> 
+<!-- Inicio body -->
+<body class="body">
+    <header>
+        <section class="flex header_flexbox">
+            <div> <img src="../img/logo4.png" alt="logo" class="logo"> </div>
+            <!-- Inicio menu navegacion -->
+            <div>
+                <nav>
+                    <ul class="menuSuperior">
+                        <li><a href="../index.html"> INICIO </a></li>
+                        <li><a href="./productos.html"> PRODUCTOS </a></li>
+                        <li><a href="./promos.html"> PROMOS </a></li>
+                        <li><a href="./massobrelulu.html"> SOBRE LULÚ </a></li>
+                        <li><a href="./contacto.html"> CONTACTO </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Fin menu navegacion -->
+        </section>
     </header>
-    <!-- Titulo y subtitulo tortas -->
-    <h1 class="violeta"> TORTAS Y BOXES </h1>
-    <!-- Imagen -->
-    <div class="imagenes_flex">
-        <div><img src="../img/torta4.png" alt="torta" class="imgProductos"></div>
-        <div><img src="../img/box4.png" alt="box" class="imgProductos"></div>
-    </div>
-    <h2 class="subtituloTortas"> TORTAS </h2>
-    <!-- Inicio lista -->
-    <div class= "listas_flex">
-            <ul class="lista">
-                <li> Lemon Pie </li>
-                <li id="negrita"> Cheesecake </li>
-                <li> Tiramisú </li>
-                <li id="negrita"> Rogel </li>
-                <li> Brownie </li>
-                <li id="negrita"> Chocotorta </li>
-                <li> Oreotorta </li>
-            </ul>
-            <ul class="listaBox">
-                <li> Box 4 unidades </li>
-                <li id="negrita"> Box 8 unidades </li>
-                <li> Box 12 unidades </li>
-                <li id="negrita"> Box 24 unidades </li>
-            </ul>  
-    </div>          
-    <!-- Fin lista -->
-    <!-- Link reel ig -->
-    <p class="textoLink"> En éste reel te dejamos solo algunas, miralo haciendo <a href="https://www.instagram.com/p/CeHXukfJhmd/?hl=es-la"> click ACÁ! </a></p>
-    <!-- Imagen -->
-    <!-- subtitulo boxes -->
-    <h2 class="subtituloBoxes"> BOXES </h2>
-    <!-- Lista -->
+    <h1> TORTAS Y BOXES </h1>
+    <section class="body body_productos">
+        <section class="titulos_productos violeta">
+            <h2> TORTAS </h2>
+            <h2> BOX </h2>
+        </section>
+        <section class="articulos">
+            <p> En éste reel te dejamos solo algunas, miralo haciendo
+                <a href="https://www.instagram.com/p/CeHXukfJhmd/?hl=es-la"> click ACÁ! </a></p>
+            <p> Son cajas con mini tortas. Vienen en 4 tamaños. Combiná los sabores!</p>
+        </section>
+        <div class="img_productos">
+            <div class="galeria_img">
+                <img src="../img/chocotorta1.jpeg" alt="torta" id="tortaP">
+            </div>
+            <div class="galeria_img">
+                <img src="../img/cajascerradas.jpeg" alt="box" id="cajaP">
+            </div>
+        </div>
+        <div class="lista_grid">
+            <div>
+                <ul class="lista_torta">
+                    <li id="li"> Lemon Pie </li>
+                    <li id="li"> Cheesecake </li>
+                    <li id="li"> Tiramisú </li>
+                    <li id="li"> Rogel </li>
+                    <li id="li"> Brownie </li>
+                    <li id="li"> Chocotorta </li>
+                    <li id="li"> Oreotorta </li>
+                    <li id="li"> Y MÁS! </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="lista_box">
+                    <li id="li"> Box 4 unidades </li>
+                    <li id="li"> Box 8 unidades </li>
+                    <li id="li"> Box 12 unidades </li>
+                    <li id="li"> Box 24 unidades </li>
+                    <li id="li"> Box 36 unidades </li>
+                    <li id="li"> Box 48 unidades </li>
+                    <li id="li"> Box XL 120 unidades </li>
+                    <li id="li"> Box XXL 240 unidades </li>
+                </ul>
+            </div>
+        </div>
 
-    <!-- Fin lista -->
-    <p class="textoPie"> Son cajas con mini tortas. Vienen en 4 tamaños. Combiná los sabores!  </p>
-<!-- Footer -->
-<footer>  Seguinos en Instagram <a href="https://www.instagram.com/luludelacream/"> @lulúdelacream </a> </footer>
+        <!-- Footer -->
+        <footer id="footer_productos"> Seguinos en Instagram <a href="https://www.instagram.com/luludelacream/">
+                @lulúdelacream </a> </footer>
+        <!-- Fin footer -->        
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
+<!-- fin body -->
+
 </html>
