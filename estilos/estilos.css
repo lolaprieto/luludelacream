@@ -11,7 +11,7 @@ html {
 /* Header */
 .menuSuperior {
     list-style-type: none;
-    margin-left: 5.5rem;
+    margin-left: 9.5rem;
 }
 
 .menuSuperior li {
@@ -51,6 +51,10 @@ html {
     flex-direction: column;
     justify-content: center;
     flex-wrap: 1 1 clamp(300px, 30%, 400px);
+}
+
+.titulo_bienvenidx {
+    padding: 1.5rem;
 }
 
 /*finHeader*/
