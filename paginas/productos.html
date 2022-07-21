@@ -18,68 +18,177 @@
 <!-- Inicio body -->
 <body class="body">
     <header>
-        <section class="flex header_flexbox">
-            <div> <img src="../img/logo4.png" alt="logo" class="logo"> </div>
-            <!-- Inicio menu navegacion -->
-            <div>
-                <nav>
-                    <ul class="menuSuperior">
-                        <li><a href="../index.html"> INICIO </a></li>
-                        <li><a href="./productos.html"> PRODUCTOS </a></li>
-                        <li><a href="./promos.html"> PROMOS </a></li>
-                        <li><a href="./massobrelulu.html"> SOBRE LULÚ </a></li>
-                        <li><a href="./contacto.html"> CONTACTO </a></li>
-                    </ul>
-                </nav>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../img/logo4.png" alt="" width="30" height="24">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html"> Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./productos.html"> Productos </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./promos.html"> Promos </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./massobrelulu.html"> Más sobre lulú </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html"> Contacto </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!-- Fin menu navegacion -->
-        </section>
+        </nav>
     </header>
-    <h1 class="animate__animated animate__bounceInRight"> TORTAS Y BOXES </h1>
+
+    <h1 class="animate__animated animate__bounceIn violeta"> TORTAS Y BOXES </h1>
+    <h2 class="subtitulo_index"> #HechoConAmor </h2>
+
+
     <section class="body body_productos">
-        <section class="titulos_productos violeta animate__animated animate__bounceInLeft">
+
+
+    <section class="container-fluid">
+            
+        <div class="row">
+            <div id="carouselExampleIndicators" class="col col-lg-6 col-md-6 col-xs-12 carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/torta1_productos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/torta2_productos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/logo_productos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        <div class="col col-lg-6 col-md-6 col-xs-12 info_tortas">
             <h2> TORTAS </h2>
-            <h2> BOX </h2>
-        </section>
-        <section class="articulos">
-            <p> En éste reel te dejamos solo algunas, miralo haciendo
-                <a class="link_reel" href="https://www.instagram.com/p/CeHXukfJhmd/?hl=es-la"> click ACÁ! </a></p>
-            <p> Son cajas con mini tortas. Vienen en 4 tamaños. Combiná los sabores!</p>
-        </section>
-        <div class="img_productos">
-            <div class="galeria_img">
-                <img src="../img/chocotorta1.jpeg" alt="torta" id="tortaP">
-            </div>
-            <div class="galeria_img">
-                <img src="../img/cajascerradas.jpeg" alt="box" id="cajaP">
-            </div>
+            <section class="texto_tortas"> 
+                    <p> Elaboradas con materia prima de primera calidad. </p>
+                    <p> No importa de qué TEAM seas: CLÁSICA o INNOVADORA. </p>
+                    <p> En lulú de la cream, la hacemos realidad. </p>
+                    <p> Te dejamos algunas opciones acá! </p>
+                    <ul class="list-group">
+                        <li class="list-group-item"> Cheesecake </li>
+                        <li class="list-group-item"> Chocotorta </li>
+                        <li class="list-group-item"> Brownie</li>
+                        <li class="list-group-item"> Tarta de Ricota </li>
+                        <li class="list-group-item"> Tarta de manzana </li>
+                    </ul>
+                </section>
         </div>
-        <div class="lista_grid">
-            <div>
-                <ul class="lista_torta">
-                    <li id="li"> Lemon Pie </li>
-                    <li id="li"> Cheesecake </li>
-                    <li id="li"> Tiramisú </li>
-                    <li id="li"> Rogel </li>
-                    <li id="li"> Brownie </li>
-                    <li id="li"> Chocotorta </li>
-                    <li id="li"> Oreotorta </li>
-                    <li id="li"> Y MÁS! </li>
-                </ul>
-            </div>
-            <div>
-                <ul class="lista_box">
-                    <li id="li"> Box 4 unidades </li>
-                    <li id="li"> Box 8 unidades </li>
-                    <li id="li"> Box 12 unidades </li>
-                    <li id="li"> Box 24 unidades </li>
-                    <li id="li"> Box 36 unidades </li>
-                    <li id="li"> Box 48 unidades </li>
-                    <li id="li"> Box XL 120 unidades </li>
-                    <li id="li"> Box XXL 240 unidades </li>
-                </ul>
-            </div>
         </div>
+
+        <div class="row">
+            <div class="col col-lg-6 col-md-12 col-xs-12">
+                <section class="articulo_vegan">
+                    <p> ¿Sos VEGAN? 
+                        <a class="link_reel" href="#vegan"> Ésto</a>
+                    te va a interesar! </p>        
+                </section>
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col col-lg-6 col-md-6 col-xs-12 info_tortas">
+                <h2> BOX </h2>
+                <section class="texto_tortas"> 
+                        <p> Nuestros box son, sin dudas, la propuesta mas innovadora.</p>
+                        <p> Mixeamos mini cakes a elección, listas para disfrutar. </p>
+                        <p> Cada porción mide aproximadamente xxx y pesa xxx </p>
+                        <p> Te dejamos algunas opciones acá! </p>
+                        <ul class="list-group">
+                            <li class="list-group-item"> Cheesecake </li>
+                            <li class="list-group-item"> Chocotorta </li>
+                            <li class="list-group-item"> Brownie</li>
+                            <li class="list-group-item"> Rogel </li>
+                            <li class="list-group-item"> Crumble de manzana </li>
+                        </ul>
+                </section>
+    
+           </div>
+
+           <div id="carouselExampleIndicators" class="col col-lg-6 col-md-6 col-xs-12 carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/6.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/box_productos.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/logo_productos.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+           
+        </div>
+
+
+            
+        
+                
+        </div>        
+
+            <div class="row">
+                <div class="col  col-lg-12 col-md-12 col-xs-12">
+                    <h2 id="vegan"> HOLA VEGAN! </h2>
+                    <div class= "info_vegan">
+                        <section class="texto_tortas">
+                            <p>Apostamos a un mundo mas conciente.
+                            Por eso, desde lulú de la cream, sembramos nuestro granito de arena:</p>
+                            <p>Todas nuestras propuestas tienen su variante 100% VEGAN. 
+                            Si, todos los ingredientes de origen VEGETAL. </p>
+                            <p>¿Cómo lo logramos? </p>
+                            <p>Fácil! Modificamos las recetas y reemplazamos cada alimento: </p>
+                            <p>la leche por bebida vegetal, el huevo por puré de frutas, la manteca por margarina.</p> 
+                            <p>Tambien usamos dulce de leche, chocolate y crema vegan. Si tenes alguna consulta, no dudes en escribirnos! </p>
+                        </section>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>    
+         
+    </section>
 
         <!-- Footer -->
         <footer id="footer_productos"> Seguinos en Instagram <a href="https://www.instagram.com/luludelacream/">
