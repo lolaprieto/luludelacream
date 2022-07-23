@@ -147,7 +147,7 @@ img {
   height: 780px;
   background-image: url(../img/luli.jpeg);
   background-size: cover;
-  margin-right: 0.8rem;
+  margin: 0.5rem;
 }
 
 .imgindex_luli:hover {
@@ -160,7 +160,7 @@ img {
   height: 780px;
   background-image: url(../img/cajascerradas.jpeg);
   background-size: cover;
-  margin-left: 0.8rem;
+  margin: 0.5rem;
 }
 
 .imgindex_box:hover {
@@ -184,9 +184,6 @@ footer :hover {
 
 footer:focus {
   color: #968ea0; }
-
-/* fin footer */
-/* fin Body */
 
 
 
@@ -214,7 +211,10 @@ footer:focus {
   height: 300px;
 }
 
-
+.row {
+  flex-direction:row;
+  
+}
 .articulo_vegan {
   font-size: x-large;
   text-align: center;
@@ -233,13 +233,11 @@ footer:focus {
 
 
 /* inicioPaginaPromos */
+ .cards {
+  margin: 4rem;
 
-.cards {
-  margin: 3rem;
-}
-.row { justify-content: center;
-}
-
+ }
+ 
 /* finPaginaPromos */
 
 
@@ -285,36 +283,20 @@ input {
 
 
 
-
-@media screen and (max-width: 882px) 
-{
-  /* pagina index */
-  h2 {
-    font-size: x-large; }
-  .subtitulo_2 {
-    font-size: large; }
-  }
-  
-@media screen and (max-width: 572px) 
-{
-  /* pagina index */
-  h2 {
-    font-size: x-large; }
-  .subtitulo_2 {
-    font-size: large; }
-  }
-
-@media screen and (max-width: 375px)
-{
-  /* pagina index */
+@media screen and (max-width: 576px) {
   h1 {
-    font-size: x-large; 
+    font-size: 3.5rem;
+    margin-top: 4rem;
   }
-  h2 {
-    font-size: large; }
-  .subtitulo_2 {
-    font-size: medium; }
 }
+
+@media screen and (max-width: 768px) {
+  .row {
+   justify-content: center;
+  }
+}
+
+
 
 
 
