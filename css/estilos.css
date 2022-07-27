@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ESTE CONTENIDO SE VA A IMPORTAR AL CSS*/
 *::after *::before {
   margin: 0;
@@ -8,46 +9,22 @@ html {
   font-size: 62.5%; }
 
 /* Header */
-
 .navbar {
-  background-color: white;
-}
+  background-color: white; }
+
 .nav-item {
   font-size: xx-large;
-  padding: 1.5rem;
-}
+  padding: 1.5rem; }
+
 .navbar-toggler {
   width: 10rem;
   height: 10rem;
   border: solid 0.3rem;
-  background-color: #d2cdd3;
-}
+  background-color: #d2cdd3; }
+
 .navbar-toggler-icon {
   width: 5rem;
-  height: 5rem;
-}
-/* NAV */
-.menuSuperior {
-  list-style-type: none;
-  margin-left: 9.5rem;
- }
-
-.menuSuperior li {
-  display: inline-block; }
-
-.menuSuperior a {
-  text-decoration: none;
-  background-color: #d2cdd3;
-  padding: 1.5rem;
-  font-weight: 600;
-  font-size: medium;
-  color: white;
-  border: 2.5px solid white;
-  transition: all 1s; }
-
-.menuSuperior :hover {
-  background-color: #968ea0;
-  font-size: x-large; }
+  height: 5rem; }
 
 .logo {
   max-width: 200px; }
@@ -66,8 +43,6 @@ html {
   flex-wrap: 1 1 clamp(300px, 30%, 400px); }
 
 /*finHeader*/
-
-
 /* Body */
 body {
   background-color: white;
@@ -83,36 +58,29 @@ h1 {
   font-size: 6rem;
   text-align: center;
   margin-bottom: 0rem;
-  font-style: italic;
- }
+  font-style: italic; }
 
 h2 {
   font-size: xx-large;
   text-align: center;
-  margin-top: 8rem;
- }
+  margin-top: 8rem; }
 
- .subtitulo_index {
+.subtitulo_index {
   font-size: 3rem;
   margin: 16rem;
-  margin-top: 2rem;
- }
+  margin-top: 2rem; }
 
 .subtitulo_2 {
   margin: 10rem;
-  font-size: x-large;
- }
+  font-size: x-large; }
 
 h5 {
   font-size: 3rem;
-  text-align: center;
-}
-
+  text-align: center; }
 
 .card-text {
   font-size: 2rem;
-  text-align: center;
-}
+  text-align: center; }
 
 .btn-primary {
   background-color: #d2cdd3;
@@ -121,8 +89,7 @@ h5 {
   margin-left: 9rem;
   width: 15rem;
   height: 3.1rem;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
 .btn-primary:hover {
   background-color: #d2cdd3;
@@ -131,13 +98,11 @@ h5 {
   margin-left: 9rem;
   width: 16rem;
   height: 3.7rem;
-  font-size: 1.7rem;
-}
-
+  font-size: 1.7rem; }
 
 .carousel_parrafo {
-  font-size: 3rem;
-}
+  font-size: 3rem; }
+
 img {
   width: 100%;
   height: 100%; }
@@ -147,26 +112,22 @@ img {
   height: 780px;
   background-image: url(../img/luli.jpeg);
   background-size: cover;
-  margin: 0.5rem;
-}
+  margin: 0.5rem; }
 
 .imgindex_luli:hover {
-  background-image: url(../img/1light.jpg); 
-  border: solid black 0.3rem;
-}
+  background-image: url(../img/1light.jpg);
+  border: solid black 0.3rem; }
 
 .imgindex_box {
   width: 580px;
   height: 780px;
   background-image: url(../img/cajascerradas.jpeg);
   background-size: cover;
-  margin: 0.5rem;
-}
+  margin: 0.5rem; }
 
 .imgindex_box:hover {
   background-image: url(../img/2light.jpg);
-  border: solid black 0.3rem;
-}
+  border: solid black 0.3rem; }
 
 .violeta {
   color: #d2cdd3; }
@@ -175,8 +136,7 @@ img {
 footer {
   text-align: center;
   font-style: italic;
-  font-size: x-large;
-}
+  font-size: x-large; }
 
 footer :hover {
   color: #968ea0;
@@ -185,41 +145,36 @@ footer :hover {
 footer:focus {
   color: #968ea0; }
 
-
-
 /* Inicio body productos */
-
 .info_tortas {
   width: 580px;
   height: 585px;
-  border: solid black 0.4rem;
-}
+  border: solid black 0.4rem; }
+
 .texto_tortas {
   font-size: 2rem;
-  text-align: center;
-}
+  text-align: center; }
 
 .list-group-item {
-  background-color:#d2cdd3;
+  background-color: #d2cdd3;
   margin: 0.3rem;
   width: 24rem;
-  margin-left: 17rem;
-}
+  margin-left: 17rem; }
 
 .info_vegan {
   width: 1200px;
-  height: 300px;
-}
+  height: 300px; }
 
 .row {
-  flex-direction:row;
-  
-}
+  flex-direction: row; }
+
+.row_tortas {
+  display: flex; }
+
 .articulo_vegan {
   font-size: x-large;
   text-align: center;
-  margin: 6rem;
-}
+  margin: 6rem; }
 
 .link_reel:hover {
   color: #968ea0;
@@ -230,19 +185,11 @@ footer:focus {
   color: #968ea0; }
 
 /* fin productos */
-
-
 /* inicioPaginaPromos */
- .cards {
-  margin: 4rem;
+.cards {
+  margin: 4rem; }
 
- }
- 
 /* finPaginaPromos */
-
-
-
-
 /* ---- FALTA TRABAJARLO ---- */
 /* inicioPaginaMassobrelulu */
 iframe {
@@ -250,7 +197,6 @@ iframe {
   margin-top: 0rem; }
 
 /* finPaginaMassobrelulu */
-
 /* inicioPaginaContacto */
 fieldset {
   margin: 1rem;
@@ -280,23 +226,11 @@ input {
   margin-left: 0rem; }
 
 /* finPaginaContacto */
-
-
-
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 3.5rem;
-    margin-top: 4rem;
-  }
-}
+    margin-top: 4rem; } }
 
 @media screen and (max-width: 768px) {
   .row {
-   justify-content: center;
-  }
-}
-
-
-
-
-
+    justify-content: center; } }
