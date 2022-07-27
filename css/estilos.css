@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* ESTE CONTENIDO SE VA A IMPORTAR AL CSS*/
 *::after *::before {
   margin: 0;
@@ -11,20 +10,18 @@ html {
 /* Header */
 .navbar {
   background-color: white; }
+  .navbar-toggler {
+    width: 10rem;
+    height: 10rem;
+    border: solid 0.3rem;
+    background-color: #d2cdd3; }
+  .navbar-toggler-icon {
+    width: 5rem;
+    height: 5rem; }
 
 .nav-item {
   font-size: xx-large;
   padding: 1.5rem; }
-
-.navbar-toggler {
-  width: 10rem;
-  height: 10rem;
-  border: solid 0.3rem;
-  background-color: #d2cdd3; }
-
-.navbar-toggler-icon {
-  width: 5rem;
-  height: 5rem; }
 
 .logo {
   max-width: 200px; }
@@ -32,24 +29,12 @@ html {
 .flex {
   display: flex; }
 
-.header_flexbox {
-  justify-content: flex-start;
-  flex-direction: row;
-  align-items: center; }
-
-.titulo_flexbox {
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: 1 1 clamp(300px, 30%, 400px); }
-
 /*finHeader*/
 /* Body */
 body {
   background-color: white;
   background-image: linear-gradient(white, #d2cdd3);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-
-body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 2rem; }
@@ -65,21 +50,16 @@ h2 {
   text-align: center;
   margin-top: 8rem; }
 
-.subtitulo_index {
+.titulo_hca {
   font-size: 3rem;
   margin: 16rem;
   margin-top: 2rem; }
-
-.subtitulo_2 {
-  margin: 10rem;
-  font-size: x-large; }
+  .titulo_hca_2 {
+    margin: 10rem;
+    font-size: x-large; }
 
 h5 {
   font-size: 3rem;
-  text-align: center; }
-
-.card-text {
-  font-size: 2rem;
   text-align: center; }
 
 .btn-primary {
@@ -90,15 +70,14 @@ h5 {
   width: 15rem;
   height: 3.1rem;
   font-size: 1.5rem; }
-
-.btn-primary:hover {
-  background-color: #d2cdd3;
-  border-radius: 1rem;
-  border-color: black;
-  margin-left: 9rem;
-  width: 16rem;
-  height: 3.7rem;
-  font-size: 1.7rem; }
+  .btn-primary:hover {
+    background-color: #d2cdd3;
+    border-radius: 1rem;
+    border-color: black;
+    margin-left: 9rem;
+    width: 16rem;
+    height: 3.7rem;
+    font-size: 1.7rem; }
 
 .carousel_parrafo {
   font-size: 3rem; }
@@ -113,10 +92,9 @@ img {
   background-image: url(../img/luli.jpeg);
   background-size: cover;
   margin: 0.5rem; }
-
-.imgindex_luli:hover {
-  background-image: url(../img/1light.jpg);
-  border: solid black 0.3rem; }
+  .imgindex_luli:hover {
+    background-image: url(../img/1light.jpg);
+    border: solid black 0.3rem; }
 
 .imgindex_box {
   width: 580px;
@@ -124,10 +102,9 @@ img {
   background-image: url(../img/cajascerradas.jpeg);
   background-size: cover;
   margin: 0.5rem; }
-
-.imgindex_box:hover {
-  background-image: url(../img/2light.jpg);
-  border: solid black 0.3rem; }
+  .imgindex_box:hover {
+    background-image: url(../img/2light.jpg);
+    border: solid black 0.3rem; }
 
 .violeta {
   color: #d2cdd3; }
@@ -137,13 +114,11 @@ footer {
   text-align: center;
   font-style: italic;
   font-size: x-large; }
-
-footer :hover {
-  color: #968ea0;
-  font-size: x-large; }
-
-footer:focus {
-  color: #968ea0; }
+  footer:hover {
+    color: #968ea0;
+    font-size: x-large; }
+  footer:focus {
+    color: #968ea0; }
 
 /* Inicio body productos */
 .info_tortas {
@@ -167,9 +142,8 @@ footer:focus {
 
 .row {
   flex-direction: row; }
-
-.row_tortas {
-  display: flex; }
+  .row_tortas {
+    display: flex; }
 
 .articulo_vegan {
   font-size: x-large;
@@ -184,12 +158,16 @@ footer:focus {
 .link_reel:focus {
   color: #968ea0; }
 
-/* fin productos */
-/* inicioPaginaPromos */
+/* fin pagina productos */
+/* inicio Pagina Promos */
 .cards {
   margin: 4rem; }
 
-/* finPaginaPromos */
+.card-text {
+  font-size: 2rem;
+  text-align: center; }
+
+/* fin Pagina Promos */
 /* ---- FALTA TRABAJARLO ---- */
 /* inicioPaginaMassobrelulu */
 iframe {
