@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%; }
 
+/* incio estilo INDEX */
 /* Header */
 
 .navbar {
@@ -35,7 +36,6 @@ html {
   display: flex; }
 
 /*finHeader*/
-
 
 /* Body */
 body {
@@ -140,10 +140,13 @@ footer {
   &:focus {
   color: $color-secundario; 
   }
+/* Fin footer */ 
+/* Fin estilo INDEX */ 
 }
 
-/* Inicio body productos */
 
+/* Inicio estilo productos */
+/* Body */
 .info_tortas {
   width: 580px;
   height: 585px;
@@ -173,7 +176,6 @@ footer {
   }
 }
 
-
 .articulo_vegan {
   font-size: x-large;
   text-align: center;
@@ -187,11 +189,11 @@ footer {
 /*para mobile */
 .link_reel:focus {
   color: $color-secundario; }
+/* Fin body */
+/* fin estilo productos */
 
-/* fin pagina productos */
 
-
-/* inicio Pagina Promos */
+/* inicio estilo Promos */
  .cards {
   margin: 4rem;
  }
@@ -200,10 +202,7 @@ footer {
   font-size: 2rem;
   text-align: center;
 }
- 
-/* fin Pagina Promos */
-
-
+/* fin estilo Promos */
 
 
 /* ---- FALTA TRABAJARLO ---- */
@@ -244,15 +243,28 @@ input {
 
 /* finPaginaContacto */
 
-@media screen and (max-width: 576px) {
+/* Media queries */
+
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 3rem;
+    margin-top: 3.5rem;
+  }
+}
+@media screen (min-width: 576px) and (max-width: 767px) {
   h1 {
     font-size: 3.5rem;
     margin-top: 4rem;
   }
+  .subtitulo_2 {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 992px) {
   .row {
    justify-content: center;
   }
 }
+
+/* Fin media queries */
