@@ -1,4 +1,4 @@
-/* ESTE CONTENIDO SE VA A IMPORTAR AL CSS*/
+/* ESTE CONTENIDO SE VA A IMPORTAR AL CSSSS*/
 *::after *::before {
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%; }
 
+/* incio estilo INDEX */
 /* Header */
 .navbar {
   background-color: white; }
@@ -106,6 +107,10 @@ img {
     background-image: url(../img/2light.jpg);
     border: solid black 0.3rem; }
 
+.subtitulo_2 {
+  font-style: italic;
+  margin-bottom: 6rem; }
+
 .violeta {
   color: #d2cdd3; }
 
@@ -113,14 +118,17 @@ img {
 footer {
   text-align: center;
   font-style: italic;
-  font-size: x-large; }
+  font-size: x-large;
+  /* Fin footer */
+  /* Fin estilo INDEX */ }
   footer:hover {
     color: #968ea0;
     font-size: x-large; }
   footer:focus {
     color: #968ea0; }
 
-/* Inicio body productos */
+/* Inicio estilo productos */
+/* Body */
 .info_tortas {
   width: 580px;
   height: 585px;
@@ -141,7 +149,8 @@ footer {
   height: 300px; }
 
 .row {
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: center; }
   .row_tortas {
     display: flex; }
 
@@ -158,8 +167,9 @@ footer {
 .link_reel:focus {
   color: #968ea0; }
 
-/* fin pagina productos */
-/* inicio Pagina Promos */
+/* Fin body */
+/* fin estilo productos */
+/* inicio estilo Promos */
 .cards {
   margin: 4rem; }
 
@@ -167,7 +177,7 @@ footer {
   font-size: 2rem;
   text-align: center; }
 
-/* fin Pagina Promos */
+/* fin estilo Promos */
 /* ---- FALTA TRABAJARLO ---- */
 /* inicioPaginaMassobrelulu */
 iframe {
@@ -204,13 +214,33 @@ input {
   margin-left: 0rem; }
 
 /* finPaginaContacto */
-@media screen and (max-width: 576px) {
+/* Media queries */
+@media screen and (max-width: 575px) {
+  .imgindex_box {
+    width: 480px;
+    height: 680px; }
+  .imgindex_luli {
+    width: 480px;
+    height: 680px; }
+  footer {
+    font-size: 3rem; } }
+
+@media screen and (max-width: 575px) and (max-width: 767px) {
   h1 {
     font-size: 3.5rem;
-    margin-top: 4rem; } }
+    margin-top: 3.5rem; }
+  h2 {
+    font-size: 3rem; }
+  .subtitulo_2 {
+    font-size: 3rem; } }
 
-@media screen and (max-width: 768px) {
-  .row {
-    justify-content: center; } }
+@media screen and (max-width: 575px) and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+    margin-top: 3rem; }
+  h2 {
+    font-size: 3.5rem; }
+  .subtitulo_2 {
+    font-size: 3.5rem; } }
 
-
+/* Fin media queries */

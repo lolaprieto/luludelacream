@@ -125,6 +125,11 @@ img {
   }
 }
 
+.subtitulo_2 {
+  font-style: italic;
+  margin-bottom: 6rem;
+}
+
 .violeta {
   color: $color-primario; }
 
@@ -174,6 +179,7 @@ footer {
   &_tortas {
     display: flex;
   }
+  justify-content: center;
 }
 
 .articulo_vegan {
@@ -246,25 +252,47 @@ input {
 /* Media queries */
 
 @media screen and (max-width: 575px) {
-  h1 {
-    font-size: 3rem;
-    margin-top: 3.5rem;
+  .imgindex_box {
+    width: 480px;
+    height: 680px;
   }
-}
-@media screen (min-width: 576px) and (max-width: 767px) {
+
+  .imgindex_luli {
+    width: 480px;
+    height: 680px;
+  }
+
+  footer { ME QUEDE EN FOOOOOOOOOOTERRRRRRRRRRRRRRRRRRRRRRR ACA 
+    font-size: 3rem;
+  }
+@media screen and (max-width: 767px) {
   h1 {
     font-size: 3.5rem;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
+  } 
+  h2 {
+    font-size: 3rem;
   }
   .subtitulo_2 {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+    margin-top: 3rem;
+  } 
+  h2 {
+    font-size: 3.5rem;
+  }
+  .subtitulo_2 {
+    font-size: 3.5rem;
   }
 }
 
-@media screen and (min-width: 992px) {
-  .row {
-   justify-content: center;
-  }
+
 }
 
 /* Fin media queries */
