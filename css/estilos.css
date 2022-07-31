@@ -215,6 +215,14 @@ input {
 
 /* finPaginaContacto */
 /* Media queries */
+@media screen and (max-width: 574px) {
+  .imgindex_box {
+    width: 280px;
+    height: 480px; }
+  .imgindex_luli {
+    width: 280px;
+    height: 480px; } }
+
 @media screen and (max-width: 575px) {
   .imgindex_box {
     width: 480px;
@@ -225,11 +233,14 @@ input {
   .subtitulo_2 {
     font-size: 2rem; }
   footer {
-    font-size: 1.5rem; } }
-
-@media screen and (max-width: 575px) and (max-width: 767px) {
+    font-size: 1.5rem; }
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-top: 3rem; } }
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 3.5rem;
     margin-top: 3.5rem; }
   h2 {
     font-size: 3rem; }
@@ -238,16 +249,13 @@ input {
   footer {
     font-size: 2.5rem; } }
 
-@media screen and (max-width: 575px) and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   h1 {
-    font-size: 2rem;
-    margin-top: 3rem; }
+    font-size: 3.8rem;
+    margin-top: 3.5rem; }
   h2 {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
   .subtitulo_2 {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
   footer {
-    font-size: 3.5rem; } 
-  }
-
-
+    font-size: 3rem; } }

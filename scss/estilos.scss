@@ -1,5 +1,4 @@
 @import "variables";
-
 *::after *::before {
   margin: 0;
   padding: 0;
@@ -256,12 +255,16 @@ input {
     width: 280px;
     height: 480px;
   }
+  .imgindex_luli {
+    width: 280px;
+    height: 480px;
+  }
+}
 @media screen and (max-width: 575px) {
   .imgindex_box {
     width: 480px;
     height: 680px;
   }
-
   .imgindex_luli {
     width: 480px;
     height: 680px;
@@ -272,6 +275,11 @@ input {
   footer {  
     font-size: 1.5rem;
   }
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  } 
+}
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 3.5rem;
@@ -288,11 +296,10 @@ input {
   }
 }
 
-@media screen and (min-width: 768px) 
-{
+@media screen and (min-width: 768px) {
   h1 {
-    font-size: 3rem;
-    margin-top: 3rem;
+    font-size: 3.8rem;
+    margin-top: 3.5rem;
   } 
   h2 {
     font-size: 3rem;
