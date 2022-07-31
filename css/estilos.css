@@ -222,25 +222,32 @@ input {
   .imgindex_luli {
     width: 480px;
     height: 680px; }
+  .subtitulo_2 {
+    font-size: 2rem; }
   footer {
-    font-size: 3rem; } }
+    font-size: 1.5rem; } }
 
 @media screen and (max-width: 575px) and (max-width: 767px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     margin-top: 3.5rem; }
   h2 {
     font-size: 3rem; }
   .subtitulo_2 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  footer {
+    font-size: 2.5rem; } }
 
 @media screen and (max-width: 575px) and (min-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-top: 3rem; }
   h2 {
     font-size: 3.5rem; }
   .subtitulo_2 {
+    font-size: 3.5rem; }
+  footer {
     font-size: 3.5rem; } }
 
-/* Fin media queries */
+@media screen and (max-width: 575px) {
+  /* Fin media queries */ }

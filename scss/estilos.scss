@@ -1,4 +1,5 @@
 @import "variables";
+
 *::after *::before {
   margin: 0;
   padding: 0;
@@ -250,7 +251,11 @@ input {
 /* finPaginaContacto */
 
 /* Media queries */
-
+@media screen and (max-width: 574px) {
+  .imgindex_box {
+    width: 280px;
+    height: 480px;
+  }
 @media screen and (max-width: 575px) {
   .imgindex_box {
     width: 480px;
@@ -261,9 +266,11 @@ input {
     width: 480px;
     height: 680px;
   }
-
-  footer { ME QUEDE EN FOOOOOOOOOOTERRRRRRRRRRRRRRRRRRRRRRR ACA 
-    font-size: 3rem;
+  .subtitulo_2 {
+    font-size: 2rem;
+  }
+  footer {  
+    font-size: 1.5rem;
   }
 @media screen and (max-width: 767px) {
   h1 {
@@ -276,23 +283,24 @@ input {
   .subtitulo_2 {
     font-size: 3rem;
   }
-  
+  footer {  
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 3rem;
   } 
   h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .subtitulo_2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
-}
-
-
-}
-
+  footer {  
+    font-size: 3rem;
+  }
 /* Fin media queries */
+} 
