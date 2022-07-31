@@ -247,7 +247,7 @@ input {
   .subtitulo_2 {
     font-size: 3.5rem; }
   footer {
-    font-size: 3.5rem; } }
+    font-size: 3.5rem; } 
+  }
 
-@media screen and (max-width: 575px) {
-  /* Fin media queries */ }
+
