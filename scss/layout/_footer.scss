@@ -1,0 +1,14 @@
+/* Footer */
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    &:hover {
+      color: $color-secundario;
+      font-size: x-large; 
+    }
+    &:focus {
+    color: $color-secundario; 
+    }
+}
+  /* Fin footer */ 

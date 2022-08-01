@@ -1,4 +1,85 @@
 /* ESTE CONTENIDO SE VA A IMPORTAR AL CSSSS*/
+/* Media queries */
+@media screen and (max-width: 320px) {
+  footer {
+    font-size: x-small; }
+  h1 {
+    font-size: 2rem;
+    margin-top: 3rem; }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 4rem; }
+  .subtitulo_index {
+    font-size: 1.5rem;
+    margin-bottom: 3rem; }
+  .card {
+    width: 100%;
+    justify-content: center; }
+  .cards {
+    margin: none;
+    margin-top: 2rem; } }
+
+@media screen and (min-width: 321px) and (max-width: 574px) {
+  .subtitulo_index {
+    font-size: 2rem;
+    margin-bottom: 3rem; }
+  footer {
+    font-size: small; }
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem; }
+  h2 {
+    font-size: 2rem;
+    margin-top: 4rem; }
+  .card {
+    width: 100%;
+    justify-content: center; }
+  .cards {
+    margin: none;
+    margin-top: 2rem; } }
+
+@media screen and (min-width: 357px) and (max-width: 574px) {
+  .card {
+    width: 100%;
+    justify-content: center; } }
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .subtitulo_index {
+    font-size: 2.5rem;
+    margin-bottom: 3rem; }
+  footer {
+    font-size: medium; }
+  h1 {
+    font-size: 3rem;
+    margin-top: 3rem; }
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 4rem; }
+  .card {
+    justify-content: center;
+    width: 100%; }
+  .cards {
+    margin: none;
+    margin-top: 2rem; } }
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 4rem; }
+  h2 {
+    font-size: 3rem;
+    margin-top: 4.5rem; }
+  footer {
+    font-size: large; }
+  .subtitulo_index {
+    font-size: 3rem;
+    margin-bottom: 3.5rem; }
+  .card {
+    justify-content: center;
+    width: 100%; }
+  .cards {
+    margin-top: 2rem; } }
+
 *::after *::before {
   margin: 0;
   padding: 0;
@@ -8,56 +89,17 @@ html {
   font-size: 62.5%; }
 
 /* incio estilo INDEX */
-/* Header */
-.navbar {
-  background-color: white; }
-  .navbar-toggler {
-    width: 10rem;
-    height: 10rem;
-    border: solid 0.3rem;
-    background-color: #d2cdd3; }
-  .navbar-toggler-icon {
-    width: 5rem;
-    height: 5rem; }
-
-.nav-item {
-  font-size: xx-large;
-  padding: 1.5rem; }
-
-.logo {
-  max-width: 200px; }
-
-.flex {
-  display: flex; }
-
-/*finHeader*/
-/* Body */
-body {
-  background-color: white;
-  background-image: linear-gradient(white, #d2cdd3);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 2rem; }
-
 h1 {
-  font-size: 6rem;
+  font-size: xx-large;
   text-align: center;
   margin-bottom: 0rem;
-  font-style: italic; }
+  font-style: italic;
+  color: #d2cdd3; }
 
 h2 {
   font-size: xx-large;
   text-align: center;
   margin-top: 8rem; }
-
-.titulo_hca {
-  font-size: 3rem;
-  margin: 16rem;
-  margin-top: 2rem; }
-  .titulo_hca_2 {
-    margin: 10rem;
-    font-size: x-large; }
 
 h5 {
   font-size: 3rem;
@@ -88,65 +130,28 @@ img {
   height: 100%; }
 
 .imgindex_luli {
-  width: 580px;
-  height: 780px;
-  background-image: url(../img/luli.jpeg);
-  background-size: cover;
   margin: 0.5rem; }
-  .imgindex_luli:hover {
-    background-image: url(../img/1light.jpg);
-    border: solid black 0.3rem; }
 
 .imgindex_box {
-  width: 580px;
-  height: 780px;
-  background-image: url(../img/cajascerradas.jpeg);
-  background-size: cover;
   margin: 0.5rem; }
-  .imgindex_box:hover {
-    background-image: url(../img/2light.jpg);
-    border: solid black 0.3rem; }
 
-.subtitulo_2 {
+.subtitulo_index {
   font-style: italic;
   margin-bottom: 6rem; }
 
-.violeta {
-  color: #d2cdd3; }
-
-/* Footer */
-footer {
-  text-align: center;
-  font-style: italic;
-  font-size: x-large;
-  /* Fin footer */
-  /* Fin estilo INDEX */ }
-  footer:hover {
-    color: #968ea0;
-    font-size: x-large; }
-  footer:focus {
-    color: #968ea0; }
-
+/* Fin estilo INDEX */
 /* Inicio estilo productos */
 /* Body */
-.info_tortas {
-  width: 580px;
-  height: 585px;
-  border: solid black 0.4rem; }
-
-.texto_tortas {
-  font-size: 2rem;
+.texto_tortas_box {
+  font-size: large;
   text-align: center; }
 
-.list-group-item {
-  background-color: #d2cdd3;
-  margin: 0.3rem;
-  width: 24rem;
-  margin-left: 17rem; }
+.vegan_info {
+  border: solid #78658f;
+  margin-bottom: 4rem; }
 
-.info_vegan {
-  width: 1200px;
-  height: 300px; }
+.vegan_titulo {
+  color: #78658f; }
 
 .row {
   flex-direction: row;
@@ -154,7 +159,7 @@ footer {
   .row_tortas {
     display: flex; }
 
-.articulo_vegan {
+.articulo {
   font-size: x-large;
   text-align: center;
   margin: 6rem; }
@@ -169,93 +174,3 @@ footer {
 
 /* Fin body */
 /* fin estilo productos */
-/* inicio estilo Promos */
-.cards {
-  margin: 4rem; }
-
-.card-text {
-  font-size: 2rem;
-  text-align: center; }
-
-/* fin estilo Promos */
-/* ---- FALTA TRABAJARLO ---- */
-/* inicioPaginaMassobrelulu */
-iframe {
-  margin: 1.5rem;
-  margin-top: 0rem; }
-
-/* finPaginaMassobrelulu */
-/* inicioPaginaContacto */
-fieldset {
-  margin: 1rem;
-  padding: 1rem; }
-
-label {
-  display: block; }
-
-input {
-  margin: 1.2rem;
-  margin-top: 0rem;
-  margin-left: 0rem; }
-
-.checkRedes {
-  margin: 0.3rem;
-  margin-left: 1.5rem; }
-
-#instagram {
-  margin-left: 0rem; }
-
-.dejanosunMsj {
-  margin: 0.3rem;
-  margin-top: 1rem; }
-
-.botones {
-  margin: 0.4rem;
-  margin-left: 0rem; }
-
-/* finPaginaContacto */
-/* Media queries */
-@media screen and (max-width: 574px) {
-  .imgindex_box {
-    width: 280px;
-    height: 480px; }
-  .imgindex_luli {
-    width: 280px;
-    height: 480px; } }
-
-@media screen and (max-width: 575px) {
-  .imgindex_box {
-    width: 480px;
-    height: 680px; }
-  .imgindex_luli {
-    width: 480px;
-    height: 680px; }
-  .subtitulo_2 {
-    font-size: 2rem; }
-  footer {
-    font-size: 1.5rem; }
-  h1 {
-    font-size: 2.5rem;
-    margin-top: 3rem; } }
-
-@media screen and (max-width: 767px) {
-  h1 {
-    font-size: 3.5rem;
-    margin-top: 3.5rem; }
-  h2 {
-    font-size: 3rem; }
-  .subtitulo_2 {
-    font-size: 3rem; }
-  footer {
-    font-size: 2.5rem; } }
-
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 3.8rem;
-    margin-top: 3.5rem; }
-  h2 {
-    font-size: 3rem; }
-  .subtitulo_2 {
-    font-size: 3rem; }
-  footer {
-    font-size: 3rem; } }

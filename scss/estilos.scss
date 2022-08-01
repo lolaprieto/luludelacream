@@ -1,4 +1,7 @@
-@import "variables";
+@import "utilities/variables";
+
+@import "utilities/mediaqueries";
+
 *::after *::before {
   margin: 0;
   padding: 0;
@@ -8,50 +11,16 @@ html {
   font-size: 62.5%; }
 
 /* incio estilo INDEX */
-/* Header */
 
-.navbar {
-  background-color: white;
-  &-toggler {
-    width: 10rem;
-    height: 10rem;
-    border: solid 0.3rem;
-    background-color: $color-primario;
-  }
-  &-toggler-icon {
-    width: 5rem;
-    height: 5rem;
-  }
 
-}
-.nav-item {
-  font-size: xx-large;
-  padding: 1.5rem;
-}
 
-.logo {
-  max-width: 200px; }
-
-.flex {
-  display: flex; }
-
-/*finHeader*/
-
-/* Body */
-body {
-  background-color: white;
-  background-image: linear-gradient(white, $color-primario);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 2rem; 
-}
 
 h1 {
-  font-size: 6rem;
+  font-size: xx-large;
   text-align: center;
   margin-bottom: 0rem;
   font-style: italic;
+  color: $color-primario;
  }
 
 h2 {
@@ -60,15 +29,6 @@ h2 {
   margin-top: 8rem;
  }
 
- .titulo_hca {
-  font-size: 3rem;
-  margin: 16rem;
-  margin-top: 2rem;
-  &_2 {
-    margin: 10rem;
-    font-size: x-large;
-   }
- }
 
 h5 {
   font-size: 3rem;
@@ -102,76 +62,35 @@ img {
   height: 100%; }
 
 .imgindex_luli {
-  width: 580px;
-  height: 780px;
-  background-image: url(../img/luli.jpeg);
-  background-size: cover;
   margin: 0.5rem;
-  &:hover {
-    background-image: url(../img/1light.jpg); 
-    border: solid black 0.3rem;
-  }
 }
 
 .imgindex_box {
-  width: 580px;
-  height: 780px;
-  background-image: url(../img/cajascerradas.jpeg);
-  background-size: cover;
   margin: 0.5rem;
-  &:hover {
-    background-image: url(../img/2light.jpg);
-    border: solid black 0.3rem;
-  }
 }
 
-.subtitulo_2 {
+.subtitulo_index {
   font-style: italic;
   margin-bottom: 6rem;
 }
 
-.violeta {
-  color: $color-primario; }
-
-/* Footer */
-footer {
-  text-align: center;
-  font-style: italic;
-  font-size: x-large;
-  &:hover {
-    color: $color-secundario;
-    font-size: x-large; 
-  }
-  &:focus {
-  color: $color-secundario; 
-  }
-/* Fin footer */ 
 /* Fin estilo INDEX */ 
-}
+
 
 
 /* Inicio estilo productos */
 /* Body */
-.info_tortas {
-  width: 580px;
-  height: 585px;
-  border: solid black 0.4rem;
-}
-.texto_tortas {
-  font-size: 2rem;
-  text-align: center;
-}
+.texto_tortas_box {
+    font-size: large;
+    text-align:center;
+  }
 
-.list-group-item {
-  background-color: $color-primario;
-  margin: 0.3rem;
-  width: 24rem;
-  margin-left: 17rem;
+.vegan_info {
+  border: solid $color-terciario;
+  margin-bottom: 4rem;
 }
-
-.info_vegan {
-  width: 1200px;
-  height: 300px;
+.vegan_titulo {
+  color: $color-terciario;
 }
 
 .row {
@@ -182,7 +101,7 @@ footer {
   justify-content: center;
 }
 
-.articulo_vegan {
+.articulo {
   font-size: x-large;
   text-align: center;
   margin: 6rem;
@@ -199,115 +118,9 @@ footer {
 /* fin estilo productos */
 
 
-/* inicio estilo Promos */
- .cards {
-  margin: 4rem;
- }
- 
-.card-text {
-  font-size: 2rem;
-  text-align: center;
-}
-/* fin estilo Promos */
 
 
-/* ---- FALTA TRABAJARLO ---- */
-/* inicioPaginaMassobrelulu */
-iframe {
-  margin: 1.5rem;
-  margin-top: 0rem; }
 
-/* finPaginaMassobrelulu */
 
-/* inicioPaginaContacto */
-fieldset {
-  margin: 1rem;
-  padding: 1rem; }
 
-label {
-  display: block; }
 
-input {
-  margin: 1.2rem;
-  margin-top: 0rem;
-  margin-left: 0rem; }
-
-.checkRedes {
-  margin: 0.3rem;
-  margin-left: 1.5rem; }
-
-#instagram {
-  margin-left: 0rem; }
-
-.dejanosunMsj {
-  margin: 0.3rem;
-  margin-top: 1rem; }
-
-.botones {
-  margin: 0.4rem;
-  margin-left: 0rem; }
-
-/* finPaginaContacto */
-
-/* Media queries */
-@media screen and (max-width: 574px) {
-  .imgindex_box {
-    width: 280px;
-    height: 480px;
-  }
-  .imgindex_luli {
-    width: 280px;
-    height: 480px;
-  }
-}
-@media screen and (max-width: 575px) {
-  .imgindex_box {
-    width: 480px;
-    height: 680px;
-  }
-  .imgindex_luli {
-    width: 480px;
-    height: 680px;
-  }
-  .subtitulo_2 {
-    font-size: 2rem;
-  }
-  footer {  
-    font-size: 1.5rem;
-  }
-  h1 {
-    font-size: 2.5rem;
-    margin-top: 3rem;
-  } 
-}
-@media screen and (max-width: 767px) {
-  h1 {
-    font-size: 3.5rem;
-    margin-top: 3.5rem;
-  } 
-  h2 {
-    font-size: 3rem;
-  }
-  .subtitulo_2 {
-    font-size: 3rem;
-  }
-  footer {  
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 3.8rem;
-    margin-top: 3.5rem;
-  } 
-  h2 {
-    font-size: 3rem;
-  }
-  .subtitulo_2 {
-    font-size: 3rem;
-  }
-  footer {  
-    font-size: 3rem;
-  }
-} 

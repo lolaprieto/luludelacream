@@ -1,0 +1,28 @@
+/* Header */
+
+.navbar {
+    background-color: white;
+    &-toggler {
+      width: 10rem;
+      height: 10rem;
+      border: solid 0.3rem;
+      background-color: $color-primario;
+    }
+    &-toggler-icon {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+  }
+  .nav-item {
+    font-size: xx-large;
+    padding: 1.5rem;
+  }
+  
+  .logo {
+    max-width: 200px; }
+  
+  .flex {
+    display: flex; }
+  
+  /*finHeader*/
