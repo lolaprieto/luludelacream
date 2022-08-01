@@ -1,0 +1,30 @@
+.card {
+  width: 35rem;
+}
+ .cards {
+  margin: 4rem;
+ }
+ 
+.card-text {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.btn-primary {
+    background-color: $color-primario;
+    border-radius: 1rem;
+    border-color: $color-primario;
+    margin-left: 9rem;
+    width: 15rem;
+    height: 3.1rem;
+    font-size: 1.5rem;
+    &:hover {
+      background-color: $color-primario;
+      border-radius: 1rem;
+      border-color: black;
+      margin-left: 9rem;
+      width: 16rem;
+      height: 3.7rem;
+      font-size: 1.7rem;
+    }
+}

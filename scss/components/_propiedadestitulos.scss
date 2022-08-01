@@ -1,0 +1,15 @@
+/* MAP{} */
+h1 {
+    font: map-get($map: $titulo, $key: tamaño);
+    color: map-get($map: $titulo, $key: color );
+    margin: map-get($map: $titulo, $key: margin-bottom);
+    font-style: map-get($map: $titulo, $key: font-style); 
+    text-align: map-get($map: $titulo, $key: text-align );
+}
+
+/* MAP{} */
+h2 {
+    font: map-get($map: $titulo, $key: tamaño);
+    margin: map-get($map: $titulo, $key: margin-bottom);  
+    text-align: map-get($map: $titulo, $key: text-align );
+}

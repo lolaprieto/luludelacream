@@ -1,8 +1,6 @@
 /* Footer */
 footer {
-    text-align: center;
-    font-style: italic;
-    font-size: x-large;
+    @include text (center, italic, x-large);
     &:hover {
       color: $color-secundario;
       font-size: x-large; 

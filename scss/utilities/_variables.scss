@@ -2,3 +2,24 @@
 $color-primario:#d2cdd3;
 $color-secundario: #968ea0;
 $color-terciario: #78658f;
+
+$font-tittle: xx-large;
+
+/* --- MAP --- */
+$titulo: (
+  tamaño: xx-large,
+  color: #d2cdd3,
+  margin-bottom: 0rem,
+  font-style: italic,
+  text-align: center,
+);
+
+/* --- MIX --- */
+@mixin text ( $text-align, $font-style, $font-size ) {
+    text-align: $text-align;
+    font-style: $font-style;
+    font-size: $font-size;
+}
+    
+}
+

@@ -1,5 +1,16 @@
 @import "utilities/variables";
-
+@import "components/cards";
+@import "components/img";
+@import "components/propiedadesbody";
+@import "components/propiedadestitulos";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/row";
+@import "views/contacto";
+@import "views/index";
+@import "views/massobrelulu";
+@import "views/productos";
+@import "views/promos";
 @import "utilities/mediaqueries";
 
 *::after *::before {
@@ -9,118 +20,6 @@
 
 html {
   font-size: 62.5%; }
-
-/* incio estilo INDEX */
-
-
-
-
-h1 {
-  font-size: xx-large;
-  text-align: center;
-  margin-bottom: 0rem;
-  font-style: italic;
-  color: $color-primario;
- }
-
-h2 {
-  font-size: xx-large;
-  text-align: center;
-  margin-top: 8rem;
- }
-
-
-h5 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-.btn-primary {
-  background-color: $color-primario;
-  border-radius: 1rem;
-  border-color: $color-primario;
-  margin-left: 9rem;
-  width: 15rem;
-  height: 3.1rem;
-  font-size: 1.5rem;
-  &:hover {
-    background-color: $color-primario;
-    border-radius: 1rem;
-    border-color: black;
-    margin-left: 9rem;
-    width: 16rem;
-    height: 3.7rem;
-    font-size: 1.7rem;
-  }
-}
-
-.carousel_parrafo {
-  font-size: 3rem;
-}
-img {
-  width: 100%;
-  height: 100%; }
-
-.imgindex_luli {
-  margin: 0.5rem;
-}
-
-.imgindex_box {
-  margin: 0.5rem;
-}
-
-.subtitulo_index {
-  font-style: italic;
-  margin-bottom: 6rem;
-}
-
-/* Fin estilo INDEX */ 
-
-
-
-/* Inicio estilo productos */
-/* Body */
-.texto_tortas_box {
-    font-size: large;
-    text-align:center;
-  }
-
-.vegan_info {
-  border: solid $color-terciario;
-  margin-bottom: 4rem;
-}
-.vegan_titulo {
-  color: $color-terciario;
-}
-
-.row {
-  flex-direction:row;
-  &_tortas {
-    display: flex;
-  }
-  justify-content: center;
-}
-
-.articulo {
-  font-size: x-large;
-  text-align: center;
-  margin: 6rem;
-}
-
-.link_reel:hover {
-  color: $color-secundario;
-  font-size: x-large; }
-
-/*para mobile */
-.link_reel:focus {
-  color: $color-secundario; }
-/* Fin body */
-/* fin estilo productos */
-
-
-
-
-
 
 
 

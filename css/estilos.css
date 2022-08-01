@@ -1,4 +1,186 @@
 /* ESTE CONTENIDO SE VA A IMPORTAR AL CSSSS*/
+/* --- MAP --- */
+.card {
+  width: 35rem; }
+
+.cards {
+  margin: 4rem; }
+
+.card-text {
+  font-size: 2rem;
+  text-align: center; }
+
+.btn-primary {
+  background-color: #d2cdd3;
+  border-radius: 1rem;
+  border-color: #d2cdd3;
+  margin-left: 9rem;
+  width: 15rem;
+  height: 3.1rem;
+  font-size: 1.5rem; }
+  .btn-primary:hover {
+    background-color: #d2cdd3;
+    border-radius: 1rem;
+    border-color: black;
+    margin-left: 9rem;
+    width: 16rem;
+    height: 3.7rem;
+    font-size: 1.7rem; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+/* propiedades Body */
+body {
+  background-color: white;
+  background-image: linear-gradient(white, #d2cdd3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2rem; }
+
+/* MAP{} */
+h1 {
+  font: xx-large;
+  color: #d2cdd3;
+  margin: 0rem;
+  font-style: italic;
+  text-align: center; }
+
+/* MAP{} */
+h2 {
+  font: xx-large;
+  margin: 0rem;
+  text-align: center; }
+
+/* Footer */
+footer {
+  text-align: center;
+  font-style: italic;
+  font-size: x-large; }
+  footer:hover {
+    color: #968ea0;
+    font-size: x-large; }
+  footer:focus {
+    color: #968ea0; }
+
+/* Fin footer */
+/* Header */
+.navbar {
+  background-color: white; }
+  .navbar-toggler {
+    width: 10rem;
+    height: 10rem;
+    border: solid 0.3rem;
+    background-color: #d2cdd3; }
+  .navbar-toggler-icon {
+    width: 5rem;
+    height: 5rem; }
+
+.nav-item {
+  font-size: xx-large;
+  padding: 1.5rem; }
+
+.logo {
+  max-width: 200px; }
+
+.flex {
+  display: flex; }
+
+/*finHeader*/
+.row {
+  flex-direction: row;
+  justify-content: center; }
+
+/* inicioPaginaContacto */
+fieldset {
+  margin: 1rem;
+  padding: 1rem; }
+
+label {
+  display: block; }
+
+input {
+  margin: 1.2rem;
+  margin-top: 0rem;
+  margin-left: 0rem; }
+
+.checkRedes {
+  margin: 0.3rem;
+  margin-left: 1.5rem; }
+
+#instagram {
+  margin-left: 0rem; }
+
+.dejanosunMsj {
+  margin: 0.3rem;
+  margin-top: 1rem; }
+
+.botones {
+  margin: 0.4rem;
+  margin-left: 0rem; }
+
+/* finPaginaContacto */
+/* incio estilo INDEX */
+h5 {
+  font-size: 3rem;
+  text-align: center; }
+
+.carousel_parrafo {
+  font-size: 3rem; }
+
+.imgindex_luli {
+  margin: 0.5rem; }
+
+.imgindex_box {
+  margin: 0.5rem; }
+
+.subtitulo_index {
+  font-style: italic;
+  margin-bottom: 6rem; }
+
+/* Fin estilo INDEX */
+/* inicioPaginaMassobrelulu */
+.texto_sobrelulu {
+  font-size: large;
+  text-align: center;
+  margin: 4rem; }
+
+iframe {
+  width: 100%;
+  height: 550px;
+  justify-content: center; }
+
+/* finPaginaMassobrelulu */
+/* Inicio estilo productos */
+/* inicio body */
+.vegan_info {
+  border: solid #78658f;
+  margin-bottom: 4rem; }
+
+.vegan_titulo {
+  color: #78658f; }
+
+.articulo {
+  margin: 6rem; }
+
+.link_reel:hover {
+  color: #968ea0;
+  font-size: x-large; }
+
+/*para mobile */
+.link_reel:focus {
+  color: #968ea0; }
+
+/* Fin body */
+/* fin estilo productos */
+/* inicio estilo Promos */
+.titulo_promos, .texto_tortas_box, .articulo {
+  font-size: large;
+  text-align: center; }
+
+/* fin estilo Promos */
 /* Media queries */
 @media screen and (max-width: 320px) {
   footer {
@@ -87,90 +269,3 @@
 
 html {
   font-size: 62.5%; }
-
-/* incio estilo INDEX */
-h1 {
-  font-size: xx-large;
-  text-align: center;
-  margin-bottom: 0rem;
-  font-style: italic;
-  color: #d2cdd3; }
-
-h2 {
-  font-size: xx-large;
-  text-align: center;
-  margin-top: 8rem; }
-
-h5 {
-  font-size: 3rem;
-  text-align: center; }
-
-.btn-primary {
-  background-color: #d2cdd3;
-  border-radius: 1rem;
-  border-color: #d2cdd3;
-  margin-left: 9rem;
-  width: 15rem;
-  height: 3.1rem;
-  font-size: 1.5rem; }
-  .btn-primary:hover {
-    background-color: #d2cdd3;
-    border-radius: 1rem;
-    border-color: black;
-    margin-left: 9rem;
-    width: 16rem;
-    height: 3.7rem;
-    font-size: 1.7rem; }
-
-.carousel_parrafo {
-  font-size: 3rem; }
-
-img {
-  width: 100%;
-  height: 100%; }
-
-.imgindex_luli {
-  margin: 0.5rem; }
-
-.imgindex_box {
-  margin: 0.5rem; }
-
-.subtitulo_index {
-  font-style: italic;
-  margin-bottom: 6rem; }
-
-/* Fin estilo INDEX */
-/* Inicio estilo productos */
-/* Body */
-.texto_tortas_box {
-  font-size: large;
-  text-align: center; }
-
-.vegan_info {
-  border: solid #78658f;
-  margin-bottom: 4rem; }
-
-.vegan_titulo {
-  color: #78658f; }
-
-.row {
-  flex-direction: row;
-  justify-content: center; }
-  .row_tortas {
-    display: flex; }
-
-.articulo {
-  font-size: x-large;
-  text-align: center;
-  margin: 6rem; }
-
-.link_reel:hover {
-  color: #968ea0;
-  font-size: x-large; }
-
-/*para mobile */
-.link_reel:focus {
-  color: #968ea0; }
-
-/* Fin body */
-/* fin estilo productos */
