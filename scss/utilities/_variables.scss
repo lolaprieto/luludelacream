@@ -15,11 +15,7 @@ $titulo: (
 );
 
 /* --- MIX --- */
-@mixin text ( $text-align, $font-style, $font-size ) {
+@mixin text ($text-align, $font-style, $font-size) {
     text-align: $text-align;
     font-style: $font-style;
-    font-size: $font-size;
-}
-    
-}
-
+    font-size: $font-size; }

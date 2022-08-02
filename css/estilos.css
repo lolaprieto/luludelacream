@@ -1,14 +1,14 @@
 /* ESTE CONTENIDO SE VA A IMPORTAR AL CSSSS*/
 /* --- MAP --- */
+/* --- MIX --- */
 .card {
   width: 35rem; }
+  .card-text {
+    font-size: 2rem;
+    text-align: center; }
 
 .cards {
   margin: 4rem; }
-
-.card-text {
-  font-size: 2rem;
-  text-align: center; }
 
 .btn-primary {
   background-color: #d2cdd3;
@@ -132,9 +132,8 @@ h5 {
 
 .imgindex_luli {
   margin: 0.5rem; }
-
-.imgindex_box {
-  margin: 0.5rem; }
+  .imgindex_luli_box {
+    margin: 0.5rem; }
 
 .subtitulo_index {
   font-style: italic;
@@ -154,13 +153,11 @@ iframe {
 
 /* finPaginaMassobrelulu */
 /* Inicio estilo productos */
-/* inicio body */
 .vegan_info {
   border: solid #78658f;
   margin-bottom: 4rem; }
-
-.vegan_titulo {
-  color: #78658f; }
+  .vegan_info_titulo {
+    color: #78658f; }
 
 .articulo {
   margin: 6rem; }
@@ -173,7 +170,6 @@ iframe {
 .link_reel:focus {
   color: #968ea0; }
 
-/* Fin body */
 /* fin estilo productos */
 /* inicio estilo Promos */
 .titulo_promos, .texto_tortas_box, .articulo {

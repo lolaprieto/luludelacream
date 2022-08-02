@@ -1,5 +1,4 @@
 /* Inicio estilo productos */
-/* inicio body */
 .texto_tortas_box {
     @extend .titulo_promos;
 }
@@ -7,9 +6,9 @@
 .vegan_info {
   border: solid $color-terciario;
   margin-bottom: 4rem;
-}
-.vegan_titulo {
+&_titulo {
   color: $color-terciario;
+}
 }
 
 .articulo {
@@ -24,5 +23,4 @@
 /*para mobile */
 .link_reel:focus {
   color: $color-secundario; }
-/* Fin body */
 /* fin estilo productos */

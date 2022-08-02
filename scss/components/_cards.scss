@@ -1,14 +1,15 @@
 .card {
   width: 35rem;
+  &-text {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
  .cards {
   margin: 4rem;
  }
  
-.card-text {
-  font-size: 2rem;
-  text-align: center;
-}
+
 
 .btn-primary {
     background-color: $color-primario;
