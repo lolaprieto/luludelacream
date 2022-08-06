@@ -94,6 +94,10 @@ footer {
   justify-content: center; }
 
 /* inicioPaginaContacto */
+.img_ustedes {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
 fieldset {
   margin: 1rem;
   padding: 1rem; }
@@ -104,21 +108,6 @@ label {
 input {
   margin: 1.2rem;
   margin-top: 0rem;
-  margin-left: 0rem; }
-
-.checkRedes {
-  margin: 0.3rem;
-  margin-left: 1.5rem; }
-
-#instagram {
-  margin-left: 0rem; }
-
-.dejanosunMsj {
-  margin: 0.3rem;
-  margin-top: 1rem; }
-
-.botones {
-  margin: 0.4rem;
   margin-left: 0rem; }
 
 /* finPaginaContacto */
